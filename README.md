@@ -6,7 +6,7 @@ DOMAIN:VLSI
 DURATION: 6 WEEKS
 MENTOR: NEELA SANTHOSH
 
-# 🧠 Synchronous RAM (Sync RAM) – Verilog Project
+# 🧠 Synchronous RAM (Sync RAM)
 
 This project implements a simple **Synchronous Random Access Memory (Sync RAM)** module using Verilog HDL. Synchronous RAM is a fundamental building block in digital systems, used to store and retrieve data during program execution. It operates in synchronization with a system clock, ensuring all read and write operations occur at defined clock edges for predictable timing behavior.
 
@@ -22,7 +22,7 @@ The project includes:
 
 The testbench initializes clock signals, writes known values into memory locations, and reads back the stored data. The simulation can be run using tools such as **ModelSim**, **Vivado**, or **Icarus Verilog**, and waveforms can be viewed using **GTKWave** to confirm the correct timing and memory behavior.
 
-### Key Features:
+Key Features:
 - 8-bit data width
 - 4-bit address width (16 memory locations)
 - Synchronous read and write using a single clock signal
@@ -31,7 +31,5 @@ The testbench initializes clock signals, writes known values into memory locatio
 OUTPUT
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/06237ba3-ec13-4bb9-a7c6-ccfb9e5ca752" />
 This project is ideal for students, beginners, or hardware design engineers looking to understand the behavior of synchronous memory modules and how to simulate memory components using Verilog. It also provides a foundation for building more advanced memory architectures like dual-port RAM, FIFO buffers, or cache memory.
-
----
 
 Feel free to clone the repository, run simulations, and adapt the RAM for larger address spaces or additional control logic such as chip enable or byte selection.
